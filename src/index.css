@@ -23,7 +23,7 @@ body {
       rgba(241, 210, 70, 0.98),
       rgba(250, 176, 103, 0.87)
     ),
-    url('bg-pattern-dark.png');
+    url('..bg-pattern-dark.png');
   background-repeat: repeat;
   background-size: 100% 100%, 30% 30%, 100% 100%;
   min-height: 110rem;
@@ -31,19 +31,21 @@ body {
 
 header {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header img {
   width: 8rem;
   object-fit: contain;
-  margin: 3rem auto 1rem auto;
+  margin-right: 3rem;
   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
 }
 
 h1 {
   font-family: 'Caprasimo', cursive;
   font-size: 3rem;
-  margin: 0 auto 3rem auto;
   color: #3f3b00;
 }
 
